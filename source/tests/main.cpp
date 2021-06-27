@@ -158,7 +158,6 @@ int main ( void )
         EXPECT_EQ( result, last );
     }
 
-
     tm2.summary();
     std::cout << std::endl;
 
