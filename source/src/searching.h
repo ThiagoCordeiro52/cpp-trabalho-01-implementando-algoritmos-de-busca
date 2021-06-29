@@ -26,6 +26,10 @@ namespace sa {
     /// Binary search.
     value_type * bsearch( value_type * first, value_type * last, value_type value );
 
+     value_type * brsearch( value_type * first, value_type * last, value_type value );
+
+ value_type * search( value_type * first, value_type * lastAssistant, value_type * middle, value_type value, value_type * last );
+
     /// Lower bound.
     value_type * lbound( value_type * first, value_type * last, value_type value );
 
